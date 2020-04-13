@@ -1,0 +1,32 @@
+package vai;
+
+import java.util.Scanner;
+
+public class agoarvaiu {
+
+    public static void main(String[] args) {
+
+    Scanner bucky = new Scanner (System.in);
+    double n1;
+    double n2;
+
+
+
+    System.out.println("Coloque o primeiro numero");
+    n1 = bucky.nextDouble();
+    System.out.println("Coloque o segundo numero");
+    n2 = bucky.nextDouble();
+
+    System.out.println("Soma: "+(n1+n2));
+    System.out.println("Subtração: "+(n1-n2));
+    System.out.println("Multiplicação: "+(n1*n2));
+    System.out.println("Divisão comum: "+(n1/n2));
+    System.out.println("Modulo: "+(n1%n2));
+
+    }
+
+
+
+
+
+}
